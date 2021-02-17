@@ -1,12 +1,12 @@
 <?php
     if (isset($_POST["submit"])) {
-        $name = $_POST["name"]
-        $phone = $_POST["phone"]
-        $email = $_POST["email"]
-        $message = $_POST["message"]
-        $headers = "no reply@" .$email
-        $subjects = "message from" .$name .$phone
-        $recipient = "adeniyi.olaitanhector1@gmail.com"
+        $name = $_POST["name"];
+        $phone = $_POST["phone"];
+        $email = $_POST["email"];
+        $message = $_POST["message"];
+        $headers = "no reply@" .$email;
+        $subjects = "message from" .$name .$phone;
+        $recipient = "adeniyi.olaitanhector1@gmail.com";
         
 
         $errorEmpty = false;

@@ -9,14 +9,14 @@ $(document).ready(function() {
         }
     })
     $(".closeNav").click(function(){
-        $(".mNav").css("width", "0%")
+        $(".mNav").css("width", "0%");
 
     })
     $(".navBtn").click(function(){
-        $(".mNav").css("width", "100%")
+        $(".mNav").css("width", "100%");
     })
     $(".mNav li").click(function(){
-        $(".mNav").css("width", "0")
+        $(".mNav").css("width", "0");
     })
-)};
+});
 
