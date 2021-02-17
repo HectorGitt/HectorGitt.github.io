@@ -147,8 +147,6 @@ nav a {
 nav a:hover {
     color: rgb(226, 229, 230);
     background-color: #656565;
-
-    
 }
 nav > ul {
     font-weight: bold;
@@ -179,7 +177,12 @@ nav > ul {
 }
 
 .prof {
-    padding-bottom: 120px;
+
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+
     
 }
 header::after {
@@ -196,13 +199,6 @@ header::after {
 
 }
 
-.prof > #avatar {
-    width: 200px;
-    border-radius: 30% ;
-    border: 1px solid #2c3e50;
-    box-shadow: 0px 0px 2px #000000;
-}
-
 .profile h1 {
     text-shadow: 0px 0px 5px #2c3e50;
     font-family: 'Texturina', serif;
@@ -215,7 +211,7 @@ header::after {
 }
 .profile .btn-group {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(150px, 300px));
     grid-gap: 10px;
     max-width: 1000px;
 }
@@ -650,9 +646,6 @@ input::placeholder, textarea::placeholder {
     .profile h1 {
         font-size: 35pt;
     }
-    .btn-group > button{
-        display: inline;
-    }
 
     .connect .con {
         padding-top: 60px;
@@ -714,9 +707,6 @@ input::placeholder, textarea::placeholder {
         width: 90vw;
         margin-bottom: 50px;
     
-    }
-    .prof > #avatar {
-        width: 130px;
     }
     .skill-set {
         display: flex;
