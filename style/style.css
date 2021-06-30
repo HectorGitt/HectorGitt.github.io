@@ -2,6 +2,7 @@ html {
   max-width: 100%;
   scroll-behavior: smooth;
   overflow-x: hidden;
+  overflow-y: hidden;
 }
 .loader {
   position: absolute;
@@ -13,7 +14,7 @@ html {
 .lds-ripple {
   display: inline-block;
   position: absolute;
-  top: 50%;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -23,7 +24,7 @@ html {
   top: 80%;
   left: 50%;
   transform: translate(-50%, 0%);
-  text-shadow: 0px 0px 5px #2c3e50;
+  text-shadow: 0px 0px 5px #d4e1ee;
   font-family: "Texturina", serif;
   font-size: 1em;
 }
@@ -82,7 +83,7 @@ body {
   max-width: 100%;
   box-sizing: border-box;
   overflow-x: hidden;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 * {
   padding: 0;
@@ -278,7 +279,7 @@ header::after {
   padding-left: 20px;
   padding-right: 20px;
   font-size: 50pt;
-  text-transform: uppercase;
+  text-transform: capitalize;
   margin-bottom: 20px;
 }
 .profile .btn-group {
@@ -365,8 +366,6 @@ header::after {
   align-items: center;
   border-radius: 10px;
   cursor: pointer;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
   overflow: hidden;
 }
 .icon-name:hover h3 {
@@ -568,8 +567,7 @@ header::after {
 }
 input::placeholder,
 textarea::placeholder {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 .contact button {
   padding: 15px 30px;

@@ -1,3 +1,9 @@
+$(window).on("load", function () {
+  setTimeout(function () {
+    $(".loader").fadeOut("slow");
+    $("html").css("overflow-y", "auto");
+  });
+});
 $("input, textarea").on({
   focus: function () {
     $(this).css("background-color", "#eee");
